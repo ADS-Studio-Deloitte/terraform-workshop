@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#usage
+#set following terraform variables
+#export PROFILE=<aws-profile>
+#export ENVIRONMENT=<environment> #e.g. test
+#export REGION=<region> #e.g. eu-west-1
+#export RESOURCE=<resource-name> #e.g.  dynamodb-table
+
 SUBCOMMAND=$1
 #prefix for the project - must be unique
 PROJECT="<TODO>"
